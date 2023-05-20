@@ -1,0 +1,18 @@
+.deadline {
+    margin-bottom: 1rem;
+}
+.deadline.completed span {
+    text-decoration: line-through;
+}
+.deadline label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #f3f3f3;
+}
+.deadline i {
+    z-index: 2;
+}
